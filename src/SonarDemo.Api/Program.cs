@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddSingleton<IProductService, ProductService>();
+builder.Services.AddSingleton<LegacyService>();
 
 var app = builder.Build();
 
