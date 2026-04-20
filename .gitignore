@@ -1,0 +1,24 @@
+# dotnet
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# tests / coverage
+TestResults/
+coverage/
+*.cobertura.xml
+*.opencover.xml
+
+# sonar scanner working dirs
+.sonarqube/
+.scannerwork/
+
+# env
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
